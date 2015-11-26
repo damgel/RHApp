@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.Usuario"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Usuarios
+                No se encontro ningun registro de Usuarios
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

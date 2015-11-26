@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.TipoPermiso"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for TipoPermisoes
+                No se encontro ningun registro de TipoPermisoes
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

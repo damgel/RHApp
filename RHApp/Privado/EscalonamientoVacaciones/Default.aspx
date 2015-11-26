@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.EscalonamientoVacacione"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for EscalonamientoVacaciones
+                No se encontro ningun registro de EscalonamientoVacaciones
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

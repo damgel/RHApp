@@ -12,10 +12,10 @@
             ItemType="RHApp.Models.TipoSalario"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for TipoSalarios
+                No se encontro ningun registro de TipoSalarios
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

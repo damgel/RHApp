@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.CategoriaSugerencia"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for CategoriaSugerencias
+                No se encontro ningun registro de CategoriaSugerencias
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

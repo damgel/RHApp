@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.SolicitudPermiso"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for SolicitudPermisoes
+                No se encontro ningun registro de SolicitudPermisoes
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

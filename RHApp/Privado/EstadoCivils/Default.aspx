@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.EstadoCivil"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for EstadoCivils
+                No se encontro ningun registro de EstadoCivils
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

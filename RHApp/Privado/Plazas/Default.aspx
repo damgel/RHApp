@@ -11,10 +11,10 @@
 			ItemType="RHApp.Models.Plaza"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Plazas
+                No se encontro ningun registro de Plazas
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>
