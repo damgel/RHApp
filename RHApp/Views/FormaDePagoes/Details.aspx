@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar FormaDePago with idFormaDePago <%: Request.QueryString["idFormaDePago"] %>
+                No se pudo encontrar FormaDePago con idFormaDePago <%: Request.QueryString["idFormaDePago"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

@@ -22,7 +22,7 @@
         <li class="one">
             <h5>Getting Started</h5>
             ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites con data access.
             <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Learn more…</a>
         </li>
         <li class="two">

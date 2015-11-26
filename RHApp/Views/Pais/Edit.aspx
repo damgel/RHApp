@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Pai with idPais <%: Request.QueryString["idPais"] %>
+                No se pudo encontrar Pai con idPais <%: Request.QueryString["idPais"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

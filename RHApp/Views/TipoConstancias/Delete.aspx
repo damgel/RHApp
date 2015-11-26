@@ -2,13 +2,13 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this TipoConstancia?</h3>
+        <h3>Estas seguro que deseas eliminar el registro TipoConstancia?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.DatabaseModel.TipoConstancia" DataKeyNames="idTipoConstancia"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar TipoConstancia with idTipoConstancia <%: Request.QueryString["idTipoConstancia"] %>
+                No se pudo encontrar TipoConstancia con idTipoConstancia <%: Request.QueryString["idTipoConstancia"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

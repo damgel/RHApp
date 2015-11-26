@@ -2,13 +2,13 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this Religion?</h3>
+        <h3>Estas seguro que deseas eliminar el registro Religion?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.DatabaseModel.Religion" DataKeyNames="idReligion"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Religion with idReligion <%: Request.QueryString["idReligion"] %>
+                No se pudo encontrar Religion con idReligion <%: Request.QueryString["idReligion"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

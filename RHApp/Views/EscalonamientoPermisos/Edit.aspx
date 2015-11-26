@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar EscalonamientoPermiso with idEscalonamientoPermisos <%: Request.QueryString["idEscalonamientoPermisos"] %>
+                No se pudo encontrar EscalonamientoPermiso con idEscalonamientoPermisos <%: Request.QueryString["idEscalonamientoPermisos"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

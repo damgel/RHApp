@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar SolicitudConstancia with idSolicitudConstancia <%: Request.QueryString["idSolicitudConstancia"] %>
+                No se pudo encontrar SolicitudConstancia con idSolicitudConstancia <%: Request.QueryString["idSolicitudConstancia"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

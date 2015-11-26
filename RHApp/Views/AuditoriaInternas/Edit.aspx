@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar AuditoriaInterna with idAuditoriaInterna <%: Request.QueryString["idAuditoriaInterna"] %>
+                No se pudo encontrar AuditoriaInterna con idAuditoriaInterna <%: Request.QueryString["idAuditoriaInterna"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

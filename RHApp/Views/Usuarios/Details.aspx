@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Usuario with idUsuario <%: Request.QueryString["idUsuario"] %>
+                No se pudo encontrar Usuario con idUsuario <%: Request.QueryString["idUsuario"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

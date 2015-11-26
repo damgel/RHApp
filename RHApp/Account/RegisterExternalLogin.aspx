@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" Title="Register an external login" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RegisterExternalLogin.aspx.cs" Inherits="RHApp.Account.RegisterExternalLogin" %>
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
     <hgroup class="title">
-        <h1>Register with your <%: ProviderDisplayName %> account</h1>
+        <h1>Register con your <%: ProviderDisplayName %> account</h1>
         <h2><%: ProviderUserName %>.</h2>
     </hgroup>
 
@@ -13,7 +13,7 @@
         <fieldset>
             <legend>Association Form</legend>
             <p>
-                You've authenticated with <strong><%: ProviderDisplayName %></strong> as
+                You've authenticated con <strong><%: ProviderDisplayName %></strong> as
                 <strong><%: ProviderUserName %></strong>. Please enter a user name below for the current site
                 and click the Log in button.
             </p>

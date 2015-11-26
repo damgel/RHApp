@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar TipoPermiso with idTipoPermiso <%: Request.QueryString["idTipoPermiso"] %>
+                No se pudo encontrar TipoPermiso con idTipoPermiso <%: Request.QueryString["idTipoPermiso"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

@@ -2,13 +2,13 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this EscalonamientoPermiso?</h3>
+        <h3>Estas seguro que deseas eliminar el registro EscalonamientoPermiso?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.DatabaseModel.EscalonamientoPermiso" DataKeyNames="idEscalonamientoPermisos"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar EscalonamientoPermiso with idEscalonamientoPermisos <%: Request.QueryString["idEscalonamientoPermisos"] %>
+                No se pudo encontrar EscalonamientoPermiso con idEscalonamientoPermisos <%: Request.QueryString["idEscalonamientoPermisos"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

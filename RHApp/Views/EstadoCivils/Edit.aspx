@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar EstadoCivil with idEstadoCivil <%: Request.QueryString["idEstadoCivil"] %>
+                No se pudo encontrar EstadoCivil con idEstadoCivil <%: Request.QueryString["idEstadoCivil"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

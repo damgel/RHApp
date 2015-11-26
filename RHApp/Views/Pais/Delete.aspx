@@ -2,13 +2,13 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this Pai?</h3>
+        <h3>Estas seguro que deseas eliminar el registro Pai?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.DatabaseModel.Pai" DataKeyNames="idPais"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Pai with idPais <%: Request.QueryString["idPais"] %>
+                No se pudo encontrar Pai con idPais <%: Request.QueryString["idPais"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

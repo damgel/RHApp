@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar BuzonSugerencia with idBuzonSugerencia <%: Request.QueryString["idBuzonSugerencia"] %>
+                No se pudo encontrar BuzonSugerencia con idBuzonSugerencia <%: Request.QueryString["idBuzonSugerencia"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

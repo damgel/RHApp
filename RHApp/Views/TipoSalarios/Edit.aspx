@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar TipoSalario with idTipoSalario <%: Request.QueryString["idTipoSalario"] %>
+                No se pudo encontrar TipoSalario con idTipoSalario <%: Request.QueryString["idTipoSalario"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

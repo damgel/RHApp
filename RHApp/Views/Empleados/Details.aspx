@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Empleado with idEmpleado <%: Request.QueryString["idEmpleado"] %>
+                No se pudo encontrar Empleado con idEmpleado <%: Request.QueryString["idEmpleado"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

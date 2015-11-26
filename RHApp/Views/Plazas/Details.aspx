@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar Plaza with idPlaza <%: Request.QueryString["idPlaza"] %>
+                No se pudo encontrar Plaza con idPlaza <%: Request.QueryString["idPlaza"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">

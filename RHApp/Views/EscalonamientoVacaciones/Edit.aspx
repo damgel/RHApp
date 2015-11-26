@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar EscalonamientoVacacione with idEscalonamientoVacaciones <%: Request.QueryString["idEscalonamientoVacaciones"] %>
+                No se pudo encontrar EscalonamientoVacacione con idEscalonamientoVacaciones <%: Request.QueryString["idEscalonamientoVacaciones"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">

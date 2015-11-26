@@ -7,7 +7,7 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                No se pudo encontrar TipoEnvio with idTipoEnvio <%: Request.QueryString["idTipoEnvio"] %>
+                No se pudo encontrar TipoEnvio con idTipoEnvio <%: Request.QueryString["idTipoEnvio"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">
