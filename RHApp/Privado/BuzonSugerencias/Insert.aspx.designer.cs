@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RHApp.Privado.EscalonamientoVacaciones {
+namespace RHApp.Privado.BuzonSugerencias {
     
     
     public partial class Insert {

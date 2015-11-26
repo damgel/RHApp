@@ -210,7 +210,7 @@
 									<strong>idTipoSalario</strong>
 								</div>
 								<div class="col-sm-4">
-									<%#: Item.TipoSalario != null ? Item.TipoSalario.idTipoSalario : "" %>
+									<%#: Item.TipoSalario != null ? Item.TipoSalario.idTipoSalario : 0 %>
 								</div>
 							</div>
 							<div class="row">

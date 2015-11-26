@@ -4,7 +4,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <h2>TipoSalarios List</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView ID="ListView1" runat="server"

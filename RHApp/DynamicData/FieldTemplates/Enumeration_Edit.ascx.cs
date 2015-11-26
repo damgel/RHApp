@@ -16,7 +16,7 @@ namespace RHApp {
     
             if (DropDownList1.Items.Count == 0) {
                 if (Mode == DataBoundControlMode.Insert || !Column.IsRequired) {
-                    DropDownList1.Items.Add(new ListItem("Select An Option", String.Empty));
+                    DropDownList1.Items.Add(new ListItem("Seleccione", String.Empty));
                 }
                 PopulateListControl(DropDownList1);
             }

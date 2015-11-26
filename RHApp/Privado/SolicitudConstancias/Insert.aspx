@@ -37,7 +37,7 @@
 								UIHint="ForeignKey" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Insert" CssClass="btn btn-primary" />
+                            <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Guardar" CssClass="btn btn-primary" />
                             <asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancel" CausesValidation="false" CssClass="btn btn-default" />
                         </div>
 					</div>
