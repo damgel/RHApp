@@ -40,7 +40,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p class="site-title">
-                        <a runat="server" href="~/">Super Logo aqui ^_^ </a>
+                        <a runat="server" href="~/">RRHH APP v1.0</a>
                     </p>
                 </div>
                 <div class="float-right">
@@ -81,7 +81,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                    <p>&copy; <%: DateTime.Now.Year %> - Todos los derechos reservados</p>
                 </div>
             </div>
         </footer>
