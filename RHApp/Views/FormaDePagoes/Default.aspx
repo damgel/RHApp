@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.FormaDePago"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for FormaDePagoes
+                No se encontraron registros para  FormaDePagoes
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

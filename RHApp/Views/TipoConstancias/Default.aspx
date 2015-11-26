@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.TipoConstancia"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for TipoConstancias
+                No se encontraron registros para  TipoConstancias
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

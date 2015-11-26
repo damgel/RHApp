@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.EscalonamientoVacacione"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for EscalonamientoVacaciones
+                No se encontraron registros para  EscalonamientoVacaciones
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

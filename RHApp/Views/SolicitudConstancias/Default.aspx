@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.SolicitudConstancia"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for SolicitudConstancias
+                No se encontraron registros para  SolicitudConstancias
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.Plaza"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Plazas
+                No se encontraron registros para  Plazas
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

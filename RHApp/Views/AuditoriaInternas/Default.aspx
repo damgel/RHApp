@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.AuditoriaInterna"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for AuditoriaInternas
+                No se encontraron registros para  AuditoriaInternas
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

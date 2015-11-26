@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.Empleado"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Empleados
+                No se encontraron registros para  Empleados
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.Pai"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Pais
+                No se encontraron registros para  Pais
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

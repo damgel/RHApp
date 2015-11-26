@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.SolicitudVacacione"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for SolicitudVacaciones
+                No se encontraron registros para  SolicitudVacaciones
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

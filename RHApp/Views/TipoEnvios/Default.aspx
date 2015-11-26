@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.TipoEnvio"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for TipoEnvios
+                No se encontraron registros para  TipoEnvios
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

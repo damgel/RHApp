@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.CategoriaSugerencia"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for CategoriaSugerencias
+                No se encontraron registros para  CategoriaSugerencias
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

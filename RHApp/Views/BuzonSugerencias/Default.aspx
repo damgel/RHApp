@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.BuzonSugerencia"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for BuzonSugerencias
+                No se encontraron registros para  BuzonSugerencias
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

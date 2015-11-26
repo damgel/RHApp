@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.SolicitudPermiso"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for SolicitudPermisoes
+                No se encontraron registros para  SolicitudPermisoes
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

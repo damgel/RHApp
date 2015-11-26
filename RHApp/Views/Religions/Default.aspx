@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.Religion"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for Religions
+                No se encontraron registros para  Religions
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">

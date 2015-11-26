@@ -11,7 +11,7 @@
 			ItemType="RHApp.DatabaseModel.EscalonamientoPermiso"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                There are no entries found for EscalonamientoPermisos
+                No se encontraron registros para  EscalonamientoPermisos
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table">
