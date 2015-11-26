@@ -14,7 +14,7 @@
                 No se encontraron registros para  SolicitudVacaciones
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>

@@ -14,7 +14,7 @@
                 No se encontraron registros para  SolicitudConstancias
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>
