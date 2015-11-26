@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -15,12 +15,13 @@ namespace RHApp.DatabaseModel
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int idFormaDePago { get; set; }
 
-        [StringLength(10)]
+        [Required]
+        [StringLength(50)]
         public string Descripcion { get; set; }
 
+        [Required]
         [StringLength(10)]
         public string FechaCreacion { get; set; }
 

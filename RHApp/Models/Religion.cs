@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,6 @@ namespace RHApp.DatabaseModel
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int idReligion { get; set; }
 
         [Required]

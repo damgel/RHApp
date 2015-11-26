@@ -6,12 +6,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Linq;
-using RHApp.DatabaseModel;
+using RHApp.Models;
 
 namespace RHApp {
     public partial class ForeignKey_EditField : System.Web.DynamicData.FieldTemplateUserControl {
 
-		protected RHApp.DatabaseModel.RhDataModel _db = new RHApp.DatabaseModel.RhDataModel();
+		protected RHApp.Models.EntitiesModels _db = new RHApp.Models.EntitiesModels();
 
 		public string DataTypeName { get; set; }
 

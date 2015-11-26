@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -12,10 +12,10 @@ namespace RHApp.DatabaseModel
         public int idSolicitudVacaciones { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaInicio { get; set; }
+        public DateTime FechaInicio { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaFin { get; set; }
+        public DateTime FechaFin { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime? FechaMaxAprobacion { get; set; }
@@ -24,10 +24,11 @@ namespace RHApp.DatabaseModel
         [StringLength(150)]
         public string Comentarios { get; set; }
 
+        [Required]
         [StringLength(1)]
         public string Estado { get; set; }
 
-        public int? NumDias { get; set; }
+        public int NumDias { get; set; }
 
         public int idEmpleado { get; set; }
 

@@ -14,23 +14,34 @@
     </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>We suggest the following:</h3>
+
+    <h3>Modulos disponibles:</h3>
     <ol class="round">
         <li class="one">
-            <h5>Getting Started</h5>
-            ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites con data access.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Learn more…</a>
+            <a href="Privado/TipoPermisoes/Default.aspx">Tipo de Permisos</a>
+            <a href="Privado/TipoSalarios/Default.aspx">Tipo de Salario</a>
+            <a href="Privado/TipoEnvios/Default.aspx">Tipo de Envio</a>
+            <a href="Privado/TipoConstancias/Default.aspx">Tipo de Constancia</a>
+            <a href="Privado/FormaDePagoes/Default.aspx">Forma de Pago</a>
+            <a href="Privado/EstadoCivils/Default.aspx">Estado Civil</a>
+            <a href="Privado/CategoriaSugerencias/Default.aspx">Categoria de Sugerencia</a>
         </li>
         <li class="two">
-            <h5>Add NuGet packages and jump-start your coding</h5>
-            NuGet makes it easy to install and update free libraries and tools.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245147">Learn more…</a>
+            <a href="Privado/Pais/Default.aspx">Pais</a>
+            <a href="Privado/Plazas/Default.aspx">Plazas</a>
+            <a href="Privado/Religions/Default.aspx">Religion</a>
+            <a href="Privado/Empleados/Default.aspx">Empleados</a>
         </li>
         <li class="three">
-            <h5>Find Web Hosting</h5>
-            You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Learn more…</a>
+            <a href="Privado/EscalonamientoPermisos/Default.aspx">Escalonamiento Permisos</a>
+            <a href="Privado/EscalonamientoVacaciones/Default.aspx">Escalonamiento Vacaciones</a>
+        </li>
+        <li class="four">
+            <a href="Privado/BuzonSugerencias/Default.aspx">Buzon de Sugerencias</a>
+            <a href="Privado/SolicitudPermisoes/Default.aspx">Solicitud de Permisos</a>
+            <a href="Privado/SolicitudConstancias/Default.aspx">Solicitud de Constancias</a>
+            <a href="Privado/SolicitudVacaciones/Default.aspx">Solicitud de Vacaciones</a>
+            <a href="Privado/Usuarios/Default.aspx">Usuarios</a>
         </li>
     </ol>
 </asp:Content>

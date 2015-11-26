@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -17,17 +17,17 @@ namespace RHApp.DatabaseModel
         public int idUsuario { get; set; }
 
         [Column("Usuario")]
+        [Required]
         [StringLength(50)]
         public string Usuario1 { get; set; }
 
+        [Required]
         [StringLength(150)]
         public string Password { get; set; }
 
+        [Required]
         [StringLength(10)]
         public string FechaCreacion { get; set; }
-
-        [StringLength(10)]
-        public string Estado { get; set; }
 
         public virtual ICollection<Empleado> Empleados { get; set; }
     }

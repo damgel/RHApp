@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;

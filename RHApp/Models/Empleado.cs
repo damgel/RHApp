@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -21,6 +21,7 @@ namespace RHApp.DatabaseModel
         [Key]
         public int idEmpleado { get; set; }
 
+        [Required]
         [StringLength(50)]
         public string PrimerNombre { get; set; }
 
@@ -28,10 +29,10 @@ namespace RHApp.DatabaseModel
         [StringLength(50)]
         public string SegundoNombre { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string TercerNombre { get; set; }
 
+        [Required]
         [StringLength(50)]
         public string PrimerApellido { get; set; }
 
@@ -39,25 +40,29 @@ namespace RHApp.DatabaseModel
         [StringLength(50)]
         public string SegundoApellido { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string ApellidoCasado { get; set; }
 
+        [Required]
         [StringLength(1)]
         public string Genero { get; set; }
 
+        [Required]
         [StringLength(250)]
         public string Direccion { get; set; }
 
         [Column(TypeName = "smallmoney")]
-        public decimal? Salario { get; set; }
+        public decimal Salario { get; set; }
 
+        [Required]
         [StringLength(1)]
         public string Estado { get; set; }
 
+        [Required]
         [StringLength(50)]
         public string Jornada { get; set; }
 
+        [Required]
         [StringLength(1)]
         public string Vehiculo { get; set; }
 
@@ -73,23 +78,21 @@ namespace RHApp.DatabaseModel
         [StringLength(10)]
         public string Extension { get; set; }
 
+        [Required]
         [StringLength(150)]
         public string Email { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaNacimiento { get; set; }
+        public DateTime FechaNacimiento { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaContratacion { get; set; }
+        public DateTime FechaContratacion { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime FechaDespido { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaGrabacion { get; set; }
-
-        [Column(TypeName = "date")]
-        public DateTime? UsuarioGrabacion { get; set; }
+        public DateTime FechaGrabacion { get; set; }
 
         public int idUsuario { get; set; }
 

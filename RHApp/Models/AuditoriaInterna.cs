@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -13,9 +13,7 @@ namespace RHApp.DatabaseModel
         public int idAuditoriaInterna { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaModificacion { get; set; }
-
-        public int? UsuarioGrabacion { get; set; }
+        public DateTime FechaModificacion { get; set; }
 
         [StringLength(150)]
         public string CambiosRealizados { get; set; }

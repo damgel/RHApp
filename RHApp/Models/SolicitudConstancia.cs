@@ -1,4 +1,4 @@
-namespace RHApp.DatabaseModel
+namespace RHApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -13,21 +13,24 @@ namespace RHApp.DatabaseModel
         public int idSolicitudConstancia { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaSolicitud { get; set; }
+        public DateTime FechaSolicitud { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime FechaImpresion { get; set; }
+        public DateTime? FechaImpresion { get; set; }
 
-        public int NumeroImpresiones { get; set; }
+        public int? NumeroImpresiones { get; set; }
 
-        public int EmpleadoImprime { get; set; }
+        public int? EmpleadoImprime { get; set; }
 
+        [Required]
         [StringLength(150)]
         public string Dirigido { get; set; }
 
+        [Required]
         [StringLength(150)]
         public string Ciudad { get; set; }
 
+        [Required]
         [StringLength(1)]
         public string Estado { get; set; }
 
