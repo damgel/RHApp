@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Empleado with idEmpleado <%: Request.QueryString["idEmpleado"] %>
+                No se pudo encontrar Empleado with idEmpleado <%: Request.QueryString["idEmpleado"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
@@ -218,7 +218,7 @@
 									<strong>idTipoSalario</strong>
 								</div>
 								<div class="col-sm-4">
-									<%#: Item.TipoSalario != null ? Item.TipoSalario.idTipoSalario : "" %>
+									<%#: Item.TipoSalario != null ? Item.TipoSalario.idTipoSalario : 0 %>
 								</div>
 							</div>
 							<div class="row">
@@ -258,7 +258,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Back" CssClass="btn btn-default" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Regresar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

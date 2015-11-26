@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="BuzonSugerenciaList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.BuzonSugerencias.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>BuzonSugerencias List</h2>
+    <h2>BuzonSugerencias Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -65,9 +65,9 @@
 								<%#: Item.CategoriaSugerencia != null ? Item.CategoriaSugerencia.nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Details", Item.idBuzonSugerencia) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Edit", Item.idBuzonSugerencia) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Delete", Item.idBuzonSugerencia) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Details", Item.idBuzonSugerencia) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Edit", Item.idBuzonSugerencia) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/BuzonSugerencias/Delete", Item.idBuzonSugerencia) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

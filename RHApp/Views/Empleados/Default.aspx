@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="EmpleadoList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.Empleados.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>Empleados List</h2>
+    <h2>Empleados Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -215,9 +215,9 @@
 								<%#: Item.Religion != null ? Item.Religion.nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Details", Item.idEmpleado) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Edit", Item.idEmpleado) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Delete", Item.idEmpleado) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Details", Item.idEmpleado) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Edit", Item.idEmpleado) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/Empleados/Delete", Item.idEmpleado) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

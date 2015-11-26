@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="EscalonamientoVacacioneList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.EscalonamientoVacaciones.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>EscalonamientoVacaciones List</h2>
+    <h2>EscalonamientoVacaciones Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -53,9 +53,9 @@
 								<asp:DynamicControl runat="server" DataField="Dias" ID="Dias" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Details", Item.idEscalonamientoVacaciones) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Edit", Item.idEscalonamientoVacaciones) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Delete", Item.idEscalonamientoVacaciones) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Details", Item.idEscalonamientoVacaciones) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Edit", Item.idEscalonamientoVacaciones) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoVacaciones/Delete", Item.idEscalonamientoVacaciones) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

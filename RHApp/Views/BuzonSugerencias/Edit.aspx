@@ -7,11 +7,11 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the BuzonSugerencia with idBuzonSugerencia <%: Request.QueryString["idBuzonSugerencia"] %>
+                No se pudo encontrar BuzonSugerencia with idBuzonSugerencia <%: Request.QueryString["idBuzonSugerencia"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Edit BuzonSugerencia</legend>
+                    <legend>Editar BuzonSugerencia</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="Asunto" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Detalles" runat="server" />
@@ -29,8 +29,8 @@
 								UIHint="ForeignKey" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Update" CssClass="btn btn-primary" />
-							<asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancel" CausesValidation="false" CssClass="btn btn-default" />
+							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Guardar Cambios" CssClass="btn btn-primary" />
+							<asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancelar" CausesValidation="false" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

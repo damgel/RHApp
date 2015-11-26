@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="SolicitudPermisoList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.SolicitudPermisoes.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>SolicitudPermisoes List</h2>
+    <h2>SolicitudPermisoes Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -113,9 +113,9 @@
 								<%#: Item.TipoPermiso != null ? Item.TipoPermiso.Nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Details", Item.idSolicitudPermiso) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Edit", Item.idSolicitudPermiso) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Delete", Item.idSolicitudPermiso) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Details", Item.idSolicitudPermiso) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Edit", Item.idSolicitudPermiso) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudPermisoes/Delete", Item.idSolicitudPermiso) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

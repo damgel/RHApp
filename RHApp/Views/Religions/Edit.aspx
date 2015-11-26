@@ -7,19 +7,19 @@
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Religion with idReligion <%: Request.QueryString["idReligion"] %>
+                No se pudo encontrar Religion with idReligion <%: Request.QueryString["idReligion"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Edit Religion</legend>
+                    <legend>Editar Religion</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="idReligion" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="nombre" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="FechaCreacion" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Update" CssClass="btn btn-primary" />
-							<asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancel" CausesValidation="false" CssClass="btn btn-default" />
+							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Guardar Cambios" CssClass="btn btn-primary" />
+							<asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancelar" CausesValidation="false" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

@@ -8,11 +8,11 @@
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Empleado with idEmpleado <%: Request.QueryString["idEmpleado"] %>
+                No se pudo encontrar Empleado with idEmpleado <%: Request.QueryString["idEmpleado"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Delete Empleado</legend>
+                    <legend>Eliminar Empleado</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>idEmpleado</strong>
@@ -258,8 +258,8 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" CssClass="btn btn-danger" />
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
+							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancelar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

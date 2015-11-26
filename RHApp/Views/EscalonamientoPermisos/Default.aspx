@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="EscalonamientoPermisoList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.EscalonamientoPermisos.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>EscalonamientoPermisos List</h2>
+    <h2>EscalonamientoPermisos Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -53,9 +53,9 @@
 								<asp:DynamicControl runat="server" DataField="Dias" ID="Dias" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Details", Item.idEscalonamientoPermisos) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Edit", Item.idEscalonamientoPermisos) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Delete", Item.idEscalonamientoPermisos) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Details", Item.idEscalonamientoPermisos) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Edit", Item.idEscalonamientoPermisos) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/EscalonamientoPermisos/Delete", Item.idEscalonamientoPermisos) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

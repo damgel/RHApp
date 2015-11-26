@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="CategoriaSugerenciaList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.CategoriaSugerencias.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>CategoriaSugerencias List</h2>
+    <h2>CategoriaSugerencias Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -47,9 +47,9 @@
 								<asp:DynamicControl runat="server" DataField="nombre" ID="nombre" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Details", Item.idCategoriaSugerencia) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Edit", Item.idCategoriaSugerencia) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Delete", Item.idCategoriaSugerencia) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Details", Item.idCategoriaSugerencia) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Edit", Item.idCategoriaSugerencia) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/CategoriaSugerencias/Delete", Item.idCategoriaSugerencia) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

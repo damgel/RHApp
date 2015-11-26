@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="SolicitudConstanciaList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Views.SolicitudConstancias.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>SolicitudConstancias List</h2>
+    <h2>SolicitudConstancias Lista</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -101,9 +101,9 @@
 								<%#: Item.TipoEnvio != null ? Item.TipoEnvio.nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Details", Item.idSolicitudConstancia) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Edit", Item.idSolicitudConstancia) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Delete", Item.idSolicitudConstancia) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Details", Item.idSolicitudConstancia) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Edit", Item.idSolicitudConstancia) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Views/SolicitudConstancias/Delete", Item.idSolicitudConstancia) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

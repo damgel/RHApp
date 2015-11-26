@@ -8,7 +8,7 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Usuario with idUsuario <%: Request.QueryString["idUsuario"] %>
+                No se pudo encontrar Usuario with idUsuario <%: Request.QueryString["idUsuario"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
@@ -58,7 +58,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Back" CssClass="btn btn-default" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Regresar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RHApp.Views.FormaDePagoes {
-    
-    
-    public partial class Edit {
+namespace RHApp
+{
+
+    public partial class About
+    {
+
     }
 }
