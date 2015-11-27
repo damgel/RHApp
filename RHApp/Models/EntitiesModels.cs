@@ -350,8 +350,7 @@ namespace RHApp.Models
                 .IsFixedLength();
 
             modelBuilder.Entity<Usuario>()
-                .Property(e => e.FechaCreacion)
-                .IsFixedLength();
+                .Property(e => e.FechaCreacion);
 
             modelBuilder.Entity<Usuario>()
                 .HasMany(e => e.Empleados)

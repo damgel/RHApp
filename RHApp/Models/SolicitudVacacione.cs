@@ -18,7 +18,7 @@ namespace RHApp.Models
         public DateTime FechaFin { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? FechaMaxAprobacion { get; set; }
+        public DateTime FechaMaxAprobacion { get; set; }
 
         [Required]
         [StringLength(150)]

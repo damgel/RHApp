@@ -55,7 +55,7 @@ namespace RHApp.Models
         public decimal Salario { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(10)]
         public string Estado { get; set; }
 
         [Required]

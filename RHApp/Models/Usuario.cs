@@ -26,8 +26,8 @@ namespace RHApp.Models
         public string Password { get; set; }
 
         [Required]
-        [StringLength(10)]
-        public string FechaCreacion { get; set; }
+        [Column(TypeName = "date")]
+        public DateTime FechaCreacion { get; set; }
 
         public virtual ICollection<Empleado> Empleados { get; set; }
     }
