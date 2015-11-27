@@ -7,6 +7,10 @@
     <title><%: Page.Title %> - RRHH APP</title>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: Scripts.Render("~/bundles/jquery") %>
+        <%: Scripts.Render("~/bundles/jqueryui") %>
+        <%: Scripts.Render("~/bundles/btjs") %>       
+        <%: Scripts.Render("~/bundles/custom") %>
     </asp:PlaceHolder>
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
