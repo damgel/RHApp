@@ -378,7 +378,7 @@ fieldset {
 }
 
     fieldset legend {
-        display: none;
+        display: inline-block;
     }
 
     fieldset ol {
