@@ -65,9 +65,9 @@
 								<%#: Item.CategoriaSugerencia != null ? Item.CategoriaSugerencia.nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Details", Item.idBuzonSugerencia) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Edit", Item.idBuzonSugerencia) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Delete", Item.idBuzonSugerencia) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Details", Item.idBuzonSugerencia) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Edit", Item.idBuzonSugerencia) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/BuzonSugerencias/Delete", Item.idBuzonSugerencia) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

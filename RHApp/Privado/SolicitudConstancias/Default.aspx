@@ -101,9 +101,9 @@
 								<%#: Item.TipoEnvio != null ? Item.TipoEnvio.nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Details", Item.idSolicitudConstancia) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Edit", Item.idSolicitudConstancia) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Delete", Item.idSolicitudConstancia) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Details", Item.idSolicitudConstancia) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Edit", Item.idSolicitudConstancia) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudConstancias/Delete", Item.idSolicitudConstancia) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

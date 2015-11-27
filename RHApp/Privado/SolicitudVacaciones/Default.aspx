@@ -89,9 +89,9 @@
 								<%#: Item.EscalonamientoVacacione != null ? Item.EscalonamientoVacacione.Nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Details", Item.idSolicitudVacaciones) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Edit", Item.idSolicitudVacaciones) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Delete", Item.idSolicitudVacaciones) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Details", Item.idSolicitudVacaciones) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Edit", Item.idSolicitudVacaciones) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Delete", Item.idSolicitudVacaciones) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

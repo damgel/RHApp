@@ -113,9 +113,9 @@
 								<%#: Item.TipoPermiso != null ? Item.TipoPermiso.Nombre : "" %>
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Details", Item.idSolicitudPermiso) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Edit", Item.idSolicitudPermiso) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Delete", Item.idSolicitudPermiso) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Details", Item.idSolicitudPermiso) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Edit", Item.idSolicitudPermiso) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudPermisoes/Delete", Item.idSolicitudPermiso) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

@@ -11,7 +11,7 @@ namespace RHApp.Privado.Empleados
 {
     public partial class Insert : System.Web.UI.Page
     {
-		protected RHApp.Models.EntitiesModels _db = new RHApp.Models.EntitiesModels();
+        protected RHApp.Models.EntitiesModels _db = new RHApp.Models.EntitiesModels();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -31,9 +31,11 @@ namespace RHApp.Privado.Empleados
                 if (ModelState.IsValid)
                 {
                     // Save changes
+                    item.FechaGrabacion = DateTime.Now;
+                    item.Estado = "Activo";
                     _db.Empleados.Add(item);
                     _db.SaveChanges();
-
+                    _db.Database.Log = s => System.Console.WriteLine(s);
                     Response.Redirect("Default");
                 }
             }

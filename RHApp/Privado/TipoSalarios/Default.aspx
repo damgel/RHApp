@@ -54,11 +54,11 @@
                         <asp:DynamicControl runat="server" DataField="ValorFinal" ID="ValorFinal" DataFormatString="{0:C}" Mode="ReadOnly" />
                     </td>
                     <td>
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Details", Item.idTipoSalario) %>' Text="Details" />
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Details", Item.idTipoSalario) %>' Text="Detalles" />
                         | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Edit", Item.idTipoSalario) %>' Text="Edit" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Edit", Item.idTipoSalario) %>' Text="Editar" />
                         | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Delete", Item.idTipoSalario) %>' Text="Delete" />
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/TipoSalarios/Delete", Item.idTipoSalario) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

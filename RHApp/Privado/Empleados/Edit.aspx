@@ -30,10 +30,6 @@
 						    <asp:DynamicControl Mode="Edit" DataField="TelefonoOficina" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Extension" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Email" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaNacimiento" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaContratacion" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaDespido" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaGrabacion" runat="server" />
 							<asp:DynamicControl Mode="Edit" 
 								DataField="idUsuario" 
 								DataTypeName="RHApp.Models.Usuario" 

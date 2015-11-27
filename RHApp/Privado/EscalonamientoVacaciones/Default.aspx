@@ -53,9 +53,9 @@
 								<asp:DynamicControl runat="server" DataField="Dias" ID="Dias" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Details", Item.idEscalonamientoVacaciones) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Edit", Item.idEscalonamientoVacaciones) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Delete", Item.idEscalonamientoVacaciones) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Details", Item.idEscalonamientoVacaciones) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Edit", Item.idEscalonamientoVacaciones) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EscalonamientoVacaciones/Delete", Item.idEscalonamientoVacaciones) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

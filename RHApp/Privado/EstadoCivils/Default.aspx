@@ -59,9 +59,9 @@
 								<asp:DynamicControl runat="server" DataField="UsuarioGrabacion" ID="UsuarioGrabacion" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Details", Item.idEstadoCivil) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Edit", Item.idEstadoCivil) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Delete", Item.idEstadoCivil) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Details", Item.idEstadoCivil) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Edit", Item.idEstadoCivil) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Delete", Item.idEstadoCivil) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>

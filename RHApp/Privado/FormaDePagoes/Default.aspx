@@ -53,9 +53,9 @@
 								<asp:DynamicControl runat="server" DataField="FechaCreacion" ID="FechaCreacion" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Details", Item.idFormaDePago) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Edit", Item.idFormaDePago) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Delete", Item.idFormaDePago) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Details", Item.idFormaDePago) %>' Text="Detalles" /> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Edit", Item.idFormaDePago) %>' Text="Editar" /> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/FormaDePagoes/Delete", Item.idFormaDePago) %>' Text="Eliminar" />
                     </td>
                 </tr>
             </ItemTemplate>
