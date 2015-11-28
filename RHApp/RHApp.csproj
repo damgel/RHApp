@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Account\Acceso.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
@@ -230,6 +231,7 @@
     <Content Include="Privado\CategoriaSugerencias\Details.aspx" />
     <Content Include="Privado\CategoriaSugerencias\Edit.aspx" />
     <Content Include="Privado\CategoriaSugerencias\Insert.aspx" />
+    <Content Include="Privado\Dashboard.aspx" />
     <Content Include="Privado\Empleados\Default.aspx" />
     <Content Include="Privado\Empleados\Delete.aspx" />
     <Content Include="Privado\Empleados\Details.aspx" />
@@ -357,6 +359,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\Acceso.aspx.cs">
+      <DependentUpon>Acceso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Acceso.aspx.designer.cs">
+      <DependentUpon>Acceso.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -635,6 +644,13 @@
     </Compile>
     <Compile Include="Privado\CategoriaSugerencias\Insert.aspx.designer.cs">
       <DependentUpon>Insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privado\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privado\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Privado\Empleados\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

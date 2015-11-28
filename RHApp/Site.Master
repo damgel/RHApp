@@ -53,7 +53,7 @@
                             <AnonymousTemplate>
                                 <ul>
                                     <li><a id="registerLink" runat="server" href="~/Account/Register">Registrar</a></li>
-                                    <li><a id="loginLink" runat="server" href="~/Account/Login">Acceder</a></li>
+                                    <li><a id="loginLink" runat="server" href="~/Account/Acceso.aspx">Acceder</a></li>
                                 </ul>
                             </AnonymousTemplate>
                             <LoggedInTemplate>
