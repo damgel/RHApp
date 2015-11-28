@@ -9,7 +9,7 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
         <%: Scripts.Render("~/bundles/jquery") %>
         <%: Scripts.Render("~/bundles/jqueryui") %>
-        <%: Scripts.Render("~/bundles/btjs") %>       
+        <%: Scripts.Render("~/bundles/btjs") %>
         <%: Scripts.Render("~/bundles/custom") %>
     </asp:PlaceHolder>
     <webopt:BundleReference runat="server" Path="~/Content/css" />
@@ -51,8 +51,8 @@
                     <section id="login">
                         <asp:LoginView runat="server" ViewStateMode="Disabled">
                             <AnonymousTemplate>
-                                <ul>
-                                    <li><a id="registerLink" runat="server" href="~/Account/Register">Registrar</a></li>
+                                <ul>                                    
+                                    <li><a id="registerLink" runat="server" href="#">Bienvenido: <b> <%: Session["usuario"] %></b></a></li>
                                     <li><a id="loginLink" runat="server" href="~/Account/Acceso.aspx">Acceder</a></li>
                                 </ul>
                             </AnonymousTemplate>
