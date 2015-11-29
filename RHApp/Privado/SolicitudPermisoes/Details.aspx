@@ -8,14 +8,14 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the SolicitudPermiso with idSolicitudPermiso <%: Request.QueryString["idSolicitudPermiso"] %>
+                No se puede encontrar la solicitud de Permiso:  <%: Request.QueryString["idSolicitudPermiso"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
                     <legend>SolicitudPermiso Details</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idSolicitudPermiso</strong>
+									<strong>Solicitud de Permiso</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="idSolicitudPermiso" ID="idSolicitudPermiso" Mode="ReadOnly" />
@@ -23,7 +23,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaInicio</strong>
+									<strong>Fecha de Inicio</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaInicio" ID="FechaInicio" Mode="ReadOnly" />
@@ -31,7 +31,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaFin</strong>
+									<strong>Fecha de Fin</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaFin" ID="FechaFin" Mode="ReadOnly" />
@@ -39,7 +39,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>DiasSolicitados</strong>
+									<strong>Dias Solicitados</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="DiasSolicitados" ID="DiasSolicitados" Mode="ReadOnly" />
@@ -55,7 +55,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>JefeRecibe</strong>
+									<strong>Jefe que Recibe</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="JefeRecibe" ID="JefeRecibe" Mode="ReadOnly" />
@@ -63,7 +63,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaGrabacion</strong>
+									<strong>Fecha de Grabacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaGrabacion" ID="FechaGrabacion" Mode="ReadOnly" />
@@ -71,7 +71,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaAprobacion</strong>
+									<strong>Fecha de Aprobacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaAprobacion" ID="FechaAprobacion" Mode="ReadOnly" />
@@ -95,7 +95,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEmpleado</strong>
+									<strong>Empleado</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.Empleado != null ? Item.Empleado.PrimerNombre : "" %>
@@ -103,7 +103,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEscalonamientoPermiso</strong>
+									<strong>Escalonamiento de Permiso</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.EscalonamientoPermiso != null ? Item.EscalonamientoPermiso.Nombre : "" %>
@@ -111,7 +111,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idTipoPermiso</strong>
+									<strong>Tipo de Permiso</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.TipoPermiso != null ? Item.TipoPermiso.Nombre : "" %>

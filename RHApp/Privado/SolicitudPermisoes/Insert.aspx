@@ -8,7 +8,7 @@
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <InsertItemTemplate>
                 <fieldset class="form-horizontal">
-				<legend>Insert SolicitudPermiso</legend>
+				<legend>Insertar Solicitud de Permiso</legend>
 		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
 						    <asp:DynamicControl Mode="Insert" DataField="FechaInicio" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="FechaFin" runat="server" />
