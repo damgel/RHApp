@@ -25,7 +25,7 @@ namespace RHApp.Privado.SolicitudVacaciones
             using (_db)
             {
                 var item = new RHApp.Models.SolicitudVacacione();
-
+                item.Estado = "P";
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)
