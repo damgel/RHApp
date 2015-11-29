@@ -186,10 +186,6 @@ namespace RHApp.Models
                 .IsFixedLength();
 
             modelBuilder.Entity<FormaDePago>()
-                .Property(e => e.FechaCreacion)
-                .IsFixedLength();
-
-            modelBuilder.Entity<FormaDePago>()
                 .HasMany(e => e.Empleados)
                 .WithRequired(e => e.FormaDePago)
                 .WillCascadeOnDelete(false);
