@@ -19,7 +19,7 @@
                     <thead>
                         <tr>
                             <th>
-                                <asp:LinkButton Text="idTipoSalario" CommandName="Sort" CommandArgument="idTipoSalario" runat="Server" />
+                                <asp:LinkButton Text="idTipoSalario" Visible="false" CommandName="Sort" CommandArgument="idTipoSalario" runat="Server" />
                             </th>
                             <th>
                                 <asp:LinkButton Text="ValorInicial" CommandName="Sort" CommandArgument="ValorInicial" runat="Server" />
@@ -45,7 +45,7 @@
             <ItemTemplate>
                 <tr>
                     <td>
-                        <asp:DynamicControl runat="server" DataField="idTipoSalario" ID="idTipoSalario" Mode="ReadOnly" />
+                        <asp:DynamicControl runat="server" Visible="false" DataField="idTipoSalario" ID="idTipoSalario" Mode="ReadOnly" />
                     </td>
                     <td>
                         <asp:DynamicControl runat="server" DataField="ValorInicial" ID="ValorInicial" DataFormatString="{0:C}" Mode="ReadOnly" />

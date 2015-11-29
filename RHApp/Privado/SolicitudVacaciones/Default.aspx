@@ -18,7 +18,7 @@
                     <thead>
                         <tr>
                             <th>
-								<asp:LinkButton Text="idSolicitudVacaciones" CommandName="Sort" CommandArgument="idSolicitudVacaciones" runat="Server" />
+								<asp:LinkButton Text="idSolicitudVacaciones" Visible="false" CommandName="Sort" CommandArgument="idSolicitudVacaciones" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="FechaInicio" CommandName="Sort" CommandArgument="FechaInicio" runat="Server" />
@@ -27,7 +27,7 @@
 								<asp:LinkButton Text="FechaFin" CommandName="Sort" CommandArgument="FechaFin" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="FechaMaxAprobacion" CommandName="Sort" CommandArgument="FechaMaxAprobacion" runat="Server" />
+								<asp:LinkButton Text="FechaMaxAprobacion" Visible="false" CommandName="Sort" CommandArgument="FechaMaxAprobacion" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Comentarios" CommandName="Sort" CommandArgument="Comentarios" runat="Server" />
@@ -39,10 +39,10 @@
 								<asp:LinkButton Text="NumDias" CommandName="Sort" CommandArgument="NumDias" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="idEmpleado" CommandName="Sort" CommandArgument="idEmpleado" runat="Server" />
+								<asp:LinkButton Text="CodigoEmpleado" CommandName="Sort" CommandArgument="idEmpleado" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="idEscalonamientoVacacion" CommandName="Sort" CommandArgument="idEscalonamientoVacacion" runat="Server" />
+								<asp:LinkButton Text="EscalonamientoVacacion" Visible="false" CommandName="Sort" CommandArgument="idEscalonamientoVacacion" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>
@@ -62,7 +62,7 @@
             <ItemTemplate>
                 <tr>
 							<td>
-								<asp:DynamicControl runat="server" DataField="idSolicitudVacaciones" ID="idSolicitudVacaciones" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" Visible="false" DataField="idSolicitudVacaciones" ID="idSolicitudVacaciones" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="FechaInicio" ID="FechaInicio" Mode="ReadOnly" />
@@ -71,7 +71,7 @@
 								<asp:DynamicControl runat="server" DataField="FechaFin" ID="FechaFin" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="FechaMaxAprobacion" ID="FechaMaxAprobacion" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="FechaMaxAprobacion" Visible="false" ID="FechaMaxAprobacion" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="Comentarios" ID="Comentarios" Mode="ReadOnly" />
@@ -85,9 +85,9 @@
 							<td>
 								<%#: Item.Empleado != null ? Item.Empleado.PrimerNombre : "" %>
 							</td>
-							<td>
+							<%--<td style="display:none">
 								<%#: Item.EscalonamientoVacacione != null ? Item.EscalonamientoVacacione.Nombre : "" %>
-							</td>
+							</td>--%>
                     <td>
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Details", Item.idSolicitudVacaciones) %>' Text="Detalles" /> | 
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/SolicitudVacaciones/Edit", Item.idSolicitudVacaciones) %>' Text="Editar" /> | 

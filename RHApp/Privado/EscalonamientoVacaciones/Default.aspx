@@ -18,7 +18,7 @@
                     <thead>
                         <tr>
                             <th>
-								<asp:LinkButton Text="idEscalonamientoVacaciones" CommandName="Sort" CommandArgument="idEscalonamientoVacaciones" runat="Server" />
+								<asp:LinkButton Text="idEscalonamientoVacaciones" Visible="false" CommandName="Sort" CommandArgument="idEscalonamientoVacaciones" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Nombre" CommandName="Sort" CommandArgument="Nombre" runat="Server" />
@@ -44,7 +44,7 @@
             <ItemTemplate>
                 <tr>
 							<td>
-								<asp:DynamicControl runat="server" DataField="idEscalonamientoVacaciones" ID="idEscalonamientoVacaciones" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" Visible="false" DataField="idEscalonamientoVacaciones" ID="idEscalonamientoVacaciones" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="Nombre" ID="Nombre" Mode="ReadOnly" />
