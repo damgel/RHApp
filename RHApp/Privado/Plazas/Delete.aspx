@@ -2,7 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this Plaza?</h3>
+        <h3>Estas seguro que deseas eliminar este  Plaza?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.Models.Plaza" DataKeyNames="idPlaza"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
@@ -12,7 +12,7 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Delete Plaza</legend>
+                    <legend>Eliminar Plaza</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>idPlaza</strong>
@@ -98,7 +98,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" CssClass="btn btn-danger" />
+							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
 							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
 						</div>
 					</div>

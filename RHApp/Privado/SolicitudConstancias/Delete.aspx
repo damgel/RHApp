@@ -2,7 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this SolicitudConstancia?</h3>
+        <h3>Estas seguro que deseas eliminar este  SolicitudConstancia?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.Models.SolicitudConstancia" DataKeyNames="idSolicitudConstancia"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
@@ -12,7 +12,7 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Delete SolicitudConstancia</legend>
+                    <legend>Eliminar SolicitudConstancia</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>idSolicitudConstancia</strong>
@@ -106,7 +106,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" CssClass="btn btn-danger" />
+							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
 							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
 						</div>
 					</div>
