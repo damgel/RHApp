@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="TipoPermisoList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Privado.TipoPermisoes.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>TipoPermisoes List</h2>
+    <h2>Tipo de Permisos</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo Tipo de Permiso" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"
@@ -11,32 +11,32 @@
 			ItemType="RHApp.Models.TipoPermiso"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                No se encontro ningun registro de TipoPermisoes
+                No se encontro ningun Tipo de Permisos
             </EmptyDataTemplate>
             <LayoutTemplate>
                 <table class="table table-responsive">
                     <thead>
                         <tr>
                             <th>
-								<asp:LinkButton Text="idTipoPermiso" CommandName="Sort" CommandArgument="idTipoPermiso" runat="Server" />
+								<asp:LinkButton Text="Tipo de Permiso" CommandName="Sort" CommandArgument="idTipoPermiso" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Nombre" CommandName="Sort" CommandArgument="Nombre" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="GoceSueldo" CommandName="Sort" CommandArgument="GoceSueldo" runat="Server" />
+								<asp:LinkButton Text="Goce de Sueldo" CommandName="Sort" CommandArgument="GoceSueldo" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="DiasMax" CommandName="Sort" CommandArgument="DiasMax" runat="Server" />
+								<asp:LinkButton Text="Dias Maximo" CommandName="Sort" CommandArgument="DiasMax" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="RequiereComprobante" CommandName="Sort" CommandArgument="RequiereComprobante" runat="Server" />
+								<asp:LinkButton Text="Requiere Comprobante" CommandName="Sort" CommandArgument="RequiereComprobante" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="EscalonamientoDias" CommandName="Sort" CommandArgument="EscalonamientoDias" runat="Server" />
+								<asp:LinkButton Text="Escalonamiento de Dias" CommandName="Sort" CommandArgument="EscalonamientoDias" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="EscalonamientoPermisos" CommandName="Sort" CommandArgument="EscalonamientoPermisos" runat="Server" />
+								<asp:LinkButton Text="Escalonamiento de Permisos" CommandName="Sort" CommandArgument="EscalonamientoPermisos" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>

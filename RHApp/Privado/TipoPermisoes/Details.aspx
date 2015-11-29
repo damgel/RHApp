@@ -8,14 +8,14 @@
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the TipoPermiso with idTipoPermiso <%: Request.QueryString["idTipoPermiso"] %>
+                No se puede encontrar el Tipo de Permiso: <%: Request.QueryString["idTipoPermiso"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>TipoPermiso Details</legend>
+                    <legend>Tipo de Permiso</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idTipoPermiso</strong>
+									<strong>Tipo de Permiso</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="idTipoPermiso" ID="idTipoPermiso" Mode="ReadOnly" />
@@ -31,7 +31,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>GoceSueldo</strong>
+									<strong>Goce de Sueldo</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="GoceSueldo" ID="GoceSueldo" Mode="ReadOnly" />
@@ -39,7 +39,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>DiasMax</strong>
+									<strong>Dias Maximos</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="DiasMax" ID="DiasMax" Mode="ReadOnly" />
@@ -47,7 +47,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>RequiereComprobante</strong>
+									<strong>Requiere Comprobante</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="RequiereComprobante" ID="RequiereComprobante" Mode="ReadOnly" />
@@ -55,7 +55,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>EscalonamientoDias</strong>
+									<strong>Escalonamiento de Dias</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="EscalonamientoDias" ID="EscalonamientoDias" Mode="ReadOnly" />
@@ -63,7 +63,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>EscalonamientoPermisos</strong>
+									<strong>Escalonamiento de Permisos</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="EscalonamientoPermisos" ID="EscalonamientoPermisos" Mode="ReadOnly" />

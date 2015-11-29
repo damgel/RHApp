@@ -2,20 +2,20 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Estas seguro que deseas eliminar este  TipoPermiso?</h3>
+        <h3>Estas seguro que deseas eliminar este  Tipo de Permiso?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.Models.TipoPermiso" DataKeyNames="idTipoPermiso"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the TipoPermiso with idTipoPermiso <%: Request.QueryString["idTipoPermiso"] %>
+                No se puede encontrar el Tipo de Permiso:  <%: Request.QueryString["idTipoPermiso"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Eliminar TipoPermiso</legend>
+                    <legend>Eliminar Tipo de Permiso</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idTipoPermiso</strong>
+									<strong>TipoP de ermiso</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="idTipoPermiso" ID="idTipoPermiso" Mode="ReadOnly" />
@@ -31,7 +31,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>GoceSueldo</strong>
+									<strong>Goce de Sueldo</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="GoceSueldo" ID="GoceSueldo" Mode="ReadOnly" />
@@ -39,7 +39,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>DiasMax</strong>
+									<strong>Dias Maximo</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="DiasMax" ID="DiasMax" Mode="ReadOnly" />
@@ -47,7 +47,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>RequiereComprobante</strong>
+									<strong>Requiere Comprobante</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="RequiereComprobante" ID="RequiereComprobante" Mode="ReadOnly" />
@@ -55,7 +55,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>EscalonamientoDias</strong>
+									<strong>Escalonamiento de Dias</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="EscalonamientoDias" ID="EscalonamientoDias" Mode="ReadOnly" />
@@ -63,7 +63,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>EscalonamientoPermisos</strong>
+									<strong>Escalonamiento de Permisos</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="EscalonamientoPermisos" ID="EscalonamientoPermisos" Mode="ReadOnly" />
@@ -75,7 +75,7 @@
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
 							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancelar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>
