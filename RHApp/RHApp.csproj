@@ -287,6 +287,7 @@
     <Content Include="Privado\SolicitudVacaciones\Default.aspx" />
     <Content Include="Privado\SolicitudVacaciones\Delete.aspx" />
     <Content Include="Privado\SolicitudVacaciones\Details.aspx" />
+    <Content Include="Privado\SolicitudVacaciones\Aprobar.aspx" />
     <Content Include="Privado\SolicitudVacaciones\Edit.aspx" />
     <Content Include="Privado\SolicitudVacaciones\Insert.aspx" />
     <Content Include="Privado\TipoConstancias\Default.aspx" />
@@ -1030,6 +1031,13 @@
     </Compile>
     <Compile Include="Privado\SolicitudVacaciones\Details.aspx.designer.cs">
       <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privado\SolicitudVacaciones\Aprobar.aspx.cs">
+      <DependentUpon>Aprobar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privado\SolicitudVacaciones\Aprobar.aspx.designer.cs">
+      <DependentUpon>Aprobar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Privado\SolicitudVacaciones\Edit.aspx.cs">
       <DependentUpon>Edit.aspx</DependentUpon>
