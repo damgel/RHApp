@@ -33,6 +33,8 @@ namespace RHApp.Privado.EstadoCivils
                     return;
                 }
 
+                item.UsuarioGrabacion = 0;
+                item.FechaGrabacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

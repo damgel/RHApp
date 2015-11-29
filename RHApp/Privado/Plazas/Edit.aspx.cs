@@ -33,6 +33,7 @@ namespace RHApp.Privado.Plazas
                     return;
                 }
 
+                item.FechaModificacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

@@ -26,6 +26,7 @@ namespace RHApp.Privado.TipoEnvios
             {
                 var item = new RHApp.Models.TipoEnvio();
 
+                item.FechaCreacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

@@ -36,16 +36,10 @@
 								<asp:LinkButton Text="Contrato" CommandName="Sort" CommandArgument="Contrato" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="FechaCreacion" CommandName="Sort" CommandArgument="FechaCreacion" runat="Server" />
-							</th>
-                            <th>
-								<asp:LinkButton Text="FechaModificacion" CommandName="Sort" CommandArgument="FechaModificacion" runat="Server" />
+								<asp:LinkButton Text="Fecha Modificacion" CommandName="Sort" CommandArgument="FechaModificacion" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="OfertaTrabajo" CommandName="Sort" CommandArgument="OfertaTrabajo" runat="Server" />
-							</th>
-                            <th>
-								<asp:LinkButton Text="RelojMarcador" CommandName="Sort" CommandArgument="RelojMarcador" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>
@@ -83,16 +77,10 @@
 								<asp:DynamicControl runat="server" DataField="Contrato" ID="Contrato" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="FechaCreacion" ID="FechaCreacion" Mode="ReadOnly" />
-							</td>
-							<td>
 								<asp:DynamicControl runat="server" DataField="FechaModificacion" ID="FechaModificacion" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="OfertaTrabajo" ID="OfertaTrabajo" Mode="ReadOnly" />
-							</td>
-							<td>
-								<asp:DynamicControl runat="server" DataField="RelojMarcador" ID="RelojMarcador" Mode="ReadOnly" />
 							</td>
                     <td>
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/Plazas/Details", Item.idPlaza) %>' Text="Detalles" /> | 

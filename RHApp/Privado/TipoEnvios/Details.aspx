@@ -23,7 +23,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>nombre</strong>
+									<strong>Nombre</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="nombre" ID="nombre" Mode="ReadOnly" />
@@ -31,7 +31,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaCreacion</strong>
+									<strong>Fecha Creacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaCreacion" ID="FechaCreacion" Mode="ReadOnly" />

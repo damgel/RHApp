@@ -25,6 +25,9 @@ namespace RHApp.Privado.EstadoCivils
             using (_db)
             {
                 var item = new RHApp.Models.EstadoCivil();
+                
+                item.UsuarioGrabacion = 0;
+                item.FechaGrabacion = DateTime.Now;
 
                 TryUpdateModel(item);
 

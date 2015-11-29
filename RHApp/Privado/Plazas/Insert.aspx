@@ -15,8 +15,6 @@
 						    <asp:DynamicControl Mode="Insert" DataField="Ubicacion" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="PlazaPadre" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Contrato" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="FechaCreacion" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="FechaModificacion" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="OfertaTrabajo" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="RelojMarcador" runat="server" />
                     <div class="form-group">

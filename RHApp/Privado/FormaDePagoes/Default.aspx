@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="FormaDePagoList" Language="C#" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.cs" Inherits="RHApp.Privado.FormaDePagoes.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>FormaDePagoes List</h2>
+    <h2>Formas de Pago</h2>
     <p>
         <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Crear Nuevo" />
     </p>
@@ -11,14 +11,14 @@
 			ItemType="RHApp.Models.FormaDePago"
             SelectMethod="GetData">
             <EmptyDataTemplate>
-                No se encontro ningun registro de FormaDePagoes
+                No se encontro ningun registro
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table table-responsive">
+                <table class="table">
                     <thead>
                         <tr>
                             <th>
-								<asp:LinkButton Text="idFormaDePago" Visible="false" CommandName="Sort" CommandArgument="idFormaDePago" runat="Server" />
+								<asp:LinkButton Text="idFormaDePago" CommandName="Sort" CommandArgument="idFormaDePago" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Descripcion" CommandName="Sort" CommandArgument="Descripcion" runat="Server" />
@@ -44,7 +44,7 @@
             <ItemTemplate>
                 <tr>
 							<td>
-								<asp:DynamicControl runat="server" Visible="false" DataField="idFormaDePago" ID="idFormaDePago" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="idFormaDePago" ID="idFormaDePago" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="Descripcion" ID="Descripcion" Mode="ReadOnly" />

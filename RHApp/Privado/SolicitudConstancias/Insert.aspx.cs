@@ -26,6 +26,8 @@ namespace RHApp.Privado.SolicitudConstancias
             {
                 var item = new RHApp.Models.SolicitudConstancia();
 
+                item.FechaSolicitud = DateTime.Now;
+                item.Estado = "P";
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

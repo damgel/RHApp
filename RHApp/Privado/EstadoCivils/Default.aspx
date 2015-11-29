@@ -21,13 +21,10 @@
 								<asp:LinkButton Text="idEstadoCivil" Visible="false" CommandName="Sort" CommandArgument="idEstadoCivil" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="nombre" CommandName="Sort" CommandArgument="nombre" runat="Server" />
+								<asp:LinkButton Text="Nombre" CommandName="Sort" CommandArgument="nombre" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="FechaGrabacion" CommandName="Sort" CommandArgument="FechaGrabacion" runat="Server" />
-							</th>
-                            <th>
-								<asp:LinkButton Text="UsuarioGrabacion" CommandName="Sort" CommandArgument="UsuarioGrabacion" runat="Server" />
+								<asp:LinkButton Text="Fecha Grabacion" CommandName="Sort" CommandArgument="FechaGrabacion" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>
@@ -55,13 +52,9 @@
 							<td>
 								<asp:DynamicControl runat="server" DataField="FechaGrabacion" ID="FechaGrabacion" Mode="ReadOnly" />
 							</td>
-							<td>
-								<asp:DynamicControl runat="server" DataField="UsuarioGrabacion" ID="UsuarioGrabacion" Mode="ReadOnly" />
-							</td>
                     <td>
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Details", Item.idEstadoCivil) %>' Text="Detalles" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Edit", Item.idEstadoCivil) %>' Text="Editar" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Delete", Item.idEstadoCivil) %>' Text="Eliminar" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/EstadoCivils/Edit", Item.idEstadoCivil) %>' Text="Editar" />
                     </td>
                 </tr>
             </ItemTemplate>

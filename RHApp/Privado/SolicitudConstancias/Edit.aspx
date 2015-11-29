@@ -13,13 +13,8 @@
                 <fieldset class="form-horizontal">
                     <legend>Edit SolicitudConstancia</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
-						    <asp:DynamicControl Mode="Edit" DataField="FechaSolicitud" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaImpresion" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="NumeroImpresiones" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="EmpleadoImprime" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Dirigido" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Ciudad" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="Estado" runat="server" />
 							<asp:DynamicControl Mode="Edit" 
 								DataField="idEmpleado" 
 								DataTypeName="RHApp.Models.Empleado" 

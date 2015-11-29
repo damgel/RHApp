@@ -13,7 +13,6 @@
                     <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
                     <asp:DynamicControl Mode="Insert" DataField="Usuario1" runat="server" />
                     <asp:DynamicControl Mode="Insert" DataField="Password" runat="server" />
-                    <asp:DynamicControl ID="fc" Mode="Insert" DataField="FechaCreacion" runat="server" CssClass="CustomdateTimePicker" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Guardar" CssClass="btn btn-primary" />

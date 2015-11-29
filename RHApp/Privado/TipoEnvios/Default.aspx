@@ -21,7 +21,7 @@
 								<asp:LinkButton Text="idTipoEnvio" CommandName="Sort" CommandArgument="idTipoEnvio" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="nombre" CommandName="Sort" CommandArgument="nombre" runat="Server" />
+								<asp:LinkButton Text="Nombre" CommandName="Sort" CommandArgument="nombre" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="FechaCreacion" CommandName="Sort" CommandArgument="FechaCreacion" runat="Server" />

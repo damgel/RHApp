@@ -23,6 +23,14 @@ namespace RHApp.Privado.SolicitudConstancias
         {
             return _db.SolicitudConstancias.Include(m => m.Empleado).Include(m => m.TipoConstancia).Include(m => m.TipoEnvio);
         }
+        public IQueryable<RHApp.Models.SolicitudConstancia> GetAprobadas()
+        {
+            return _db.SolicitudConstancias.Include(m => m.Empleado).Include(m => m.TipoConstancia).Include(m => m.TipoEnvio).Where(e=>e.Estado.Equals("A"));
+        }
+        public IQueryable<RHApp.Models.SolicitudConstancia> GetPendientes()
+        {
+            return _db.SolicitudConstancias.Include(m => m.Empleado).Include(m => m.TipoConstancia).Include(m => m.TipoEnvio).Where(e => e.Estado.Equals("P"));
+        }
     }
 }
 

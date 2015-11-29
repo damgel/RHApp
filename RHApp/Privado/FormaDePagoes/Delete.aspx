@@ -2,7 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Estas seguro que deseas eliminar este  FormaDePago?</h3>
+        <h3>Estas seguro que deseas eliminar esta FormaDePago?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.Models.FormaDePago" DataKeyNames="idFormaDePago"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
@@ -43,7 +43,7 @@
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
 							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancelar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

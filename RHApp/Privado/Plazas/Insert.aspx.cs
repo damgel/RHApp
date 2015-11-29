@@ -25,7 +25,8 @@ namespace RHApp.Privado.Plazas
             using (_db)
             {
                 var item = new RHApp.Models.Plaza();
-
+                item.FechaCreacion = DateTime.Now;
+                item.FechaModificacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

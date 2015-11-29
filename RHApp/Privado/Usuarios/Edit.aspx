@@ -15,7 +15,6 @@
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="Usuario1" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Password" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaCreacion" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
 							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Guardar Cambios" CssClass="btn btn-primary" />

@@ -9,14 +9,9 @@
             <InsertItemTemplate>
                 <fieldset class="form-horizontal">
 				<legend>Insert SolicitudConstancia</legend>
-		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
-						    <asp:DynamicControl Mode="Insert" DataField="FechaSolicitud" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="FechaImpresion" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="NumeroImpresiones" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="EmpleadoImprime" runat="server" />
+		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />						    
 						    <asp:DynamicControl Mode="Insert" DataField="Dirigido" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Ciudad" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="Estado" runat="server" />
 							<asp:DynamicControl Mode="Insert" 
 								DataField="idEmpleado" 
 								DataTypeName="RHApp.Models.Empleado" 

@@ -25,7 +25,7 @@ namespace RHApp.Privado.Usuarios
             using (_db)
             {
                 var item = new RHApp.Models.Usuario();
-
+                item.FechaCreacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

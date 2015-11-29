@@ -21,13 +21,13 @@
 								<asp:LinkButton Text="idUsuario" CommandName="Sort" CommandArgument="idUsuario" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="Usuario1" CommandName="Sort" CommandArgument="Usuario1" runat="Server" />
+								<asp:LinkButton Text="Usuario" CommandName="Sort" CommandArgument="Usuario1" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Password" CommandName="Sort" CommandArgument="Password" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="FechaCreacion" CommandName="Sort" CommandArgument="FechaCreacion" runat="Server" />
+								<asp:LinkButton Text="Fecha Creacion" CommandName="Sort" CommandArgument="FechaCreacion" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>
@@ -60,8 +60,7 @@
 							</td>
                     <td>
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/Usuarios/Details", Item.idUsuario) %>' Text="Detalles" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/Usuarios/Edit", Item.idUsuario) %>' Text="Editar" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/Usuarios/Delete", Item.idUsuario) %>' Text="Eliminar" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Privado/Usuarios/Edit", Item.idUsuario) %>' Text="Editar" />
                     </td>
                 </tr>
             </ItemTemplate>

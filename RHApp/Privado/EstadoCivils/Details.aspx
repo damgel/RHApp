@@ -37,14 +37,6 @@
 									<asp:DynamicControl runat="server" DataField="FechaGrabacion" ID="FechaGrabacion" Mode="ReadOnly" />
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-sm-2 text-right">
-									<strong>UsuarioGrabacion</strong>
-								</div>
-								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="UsuarioGrabacion" ID="UsuarioGrabacion" Mode="ReadOnly" />
-								</div>
-							</div>
                  	<div class="row">
 					  &nbsp;
 					</div>

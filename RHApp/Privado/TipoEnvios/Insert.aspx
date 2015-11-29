@@ -11,7 +11,6 @@
 				<legend>Insert TipoEnvio</legend>
 		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
 						    <asp:DynamicControl Mode="Insert" DataField="nombre" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="FechaCreacion" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Guardar" CssClass="btn btn-primary" />

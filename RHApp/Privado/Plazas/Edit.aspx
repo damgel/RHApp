@@ -18,8 +18,6 @@
 						    <asp:DynamicControl Mode="Edit" DataField="Ubicacion" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="PlazaPadre" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Contrato" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaCreacion" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaModificacion" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="OfertaTrabajo" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="RelojMarcador" runat="server" />
                     <div class="form-group">

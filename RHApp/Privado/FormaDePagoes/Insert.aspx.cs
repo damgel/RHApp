@@ -26,6 +26,7 @@ namespace RHApp.Privado.FormaDePagoes
             {
                 var item = new RHApp.Models.FormaDePago();
 
+                item.FechaCreacion = DateTime.Now;
                 TryUpdateModel(item);
 
                 if (ModelState.IsValid)

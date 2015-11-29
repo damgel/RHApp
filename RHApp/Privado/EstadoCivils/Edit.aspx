@@ -14,8 +14,6 @@
                     <legend>Edit EstadoCivil</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="nombre" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="FechaGrabacion" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="UsuarioGrabacion" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
 							<asp:Button runat="server" ID="UpdateButton" CommandName="Update" Text="Guardar Cambios" CssClass="btn btn-primary" />
