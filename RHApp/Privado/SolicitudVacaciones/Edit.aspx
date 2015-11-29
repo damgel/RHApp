@@ -17,7 +17,6 @@
 						    <asp:DynamicControl Mode="Edit" DataField="FechaFin" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="FechaMaxAprobacion" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Comentarios" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="Estado" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="NumDias" runat="server" />
 							<asp:DynamicControl Mode="Edit" 
 								DataField="idEmpleado" 
