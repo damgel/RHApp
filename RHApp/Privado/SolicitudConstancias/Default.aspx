@@ -18,19 +18,19 @@
                     <thead>
                         <tr>
                             <th>
-								<asp:LinkButton Text="idSolicitudConstancia" CommandName="Sort" CommandArgument="idSolicitudConstancia" runat="Server" />
+								<asp:LinkButton Text="idSolicitudConstancia" Visible="false" CommandName="Sort" CommandArgument="idSolicitudConstancia" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="FechaSolicitud" CommandName="Sort" CommandArgument="FechaSolicitud" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="FechaImpresion" CommandName="Sort" CommandArgument="FechaImpresion" runat="Server" />
+								<asp:LinkButton Text="FechaImpresion" Visible="false"  CommandName="Sort" CommandArgument="FechaImpresion" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="NumeroImpresiones" CommandName="Sort" CommandArgument="NumeroImpresiones" runat="Server" />
+								<asp:LinkButton Text="NumeroImpresiones" Visible="false"  CommandName="Sort" CommandArgument="NumeroImpresiones" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="EmpleadoImprime" CommandName="Sort" CommandArgument="EmpleadoImprime" runat="Server" />
+								<asp:LinkButton Text="EmpleadoImprime" Visible="false"  CommandName="Sort" CommandArgument="EmpleadoImprime" runat="Server" />
 							</th>
                             <th>
 								<asp:LinkButton Text="Dirigido" CommandName="Sort" CommandArgument="Dirigido" runat="Server" />
@@ -39,16 +39,16 @@
 								<asp:LinkButton Text="Ciudad" CommandName="Sort" CommandArgument="Ciudad" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="Estado" CommandName="Sort" CommandArgument="Estado" runat="Server" />
+								<asp:LinkButton Text="Estado" CommandName="Sort" Visible="false"  CommandArgument="Estado" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="idEmpleado" CommandName="Sort" CommandArgument="idEmpleado" runat="Server" />
+								<asp:LinkButton Text="Codigo Empleado" CommandName="Sort" CommandArgument="idEmpleado" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="idTipoConstancia" CommandName="Sort" CommandArgument="idTipoConstancia" runat="Server" />
+								<asp:LinkButton Text="Tipo Constancia" CommandName="Sort" CommandArgument="idTipoConstancia" runat="Server" />
 							</th>
                             <th>
-								<asp:LinkButton Text="idTipoEnvio" CommandName="Sort" CommandArgument="idTipoEnvio" runat="Server" />
+								<asp:LinkButton Text="Tipo Envio" CommandName="Sort" CommandArgument="idTipoEnvio" runat="Server" />
 							</th>
                             <th>&nbsp;</th>
                         </tr>
@@ -68,19 +68,19 @@
             <ItemTemplate>
                 <tr>
 							<td>
-								<asp:DynamicControl runat="server" DataField="idSolicitudConstancia" ID="idSolicitudConstancia" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" Visible="false" DataField="idSolicitudConstancia" ID="idSolicitudConstancia" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="FechaSolicitud" ID="FechaSolicitud" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="FechaImpresion" ID="FechaImpresion" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="FechaImpresion" Visible="false"  ID="FechaImpresion" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="NumeroImpresiones" ID="NumeroImpresiones" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="NumeroImpresiones" Visible="false"  ID="NumeroImpresiones" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="EmpleadoImprime" ID="EmpleadoImprime" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="EmpleadoImprime" Visible="false"  ID="EmpleadoImprime" Mode="ReadOnly" />
 							</td>
 							<td>
 								<asp:DynamicControl runat="server" DataField="Dirigido" ID="Dirigido" Mode="ReadOnly" />
@@ -89,7 +89,7 @@
 								<asp:DynamicControl runat="server" DataField="Ciudad" ID="Ciudad" Mode="ReadOnly" />
 							</td>
 							<td>
-								<asp:DynamicControl runat="server" DataField="Estado" ID="Estado" Mode="ReadOnly" />
+								<asp:DynamicControl runat="server" DataField="Estado" Visible="false"  ID="Estado" Mode="ReadOnly" />
 							</td>
 							<td>
 								<%#: Item.Empleado != null ? Item.Empleado.PrimerNombre : "" %>
