@@ -2,7 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this SolicitudVacacione?</h3>
+        <h3>Estas seguro que deseas eliminar esta solicitud?</h3>
         <asp:FormView runat="server"
             ItemType="RHApp.Models.SolicitudVacacione" DataKeyNames="idSolicitudVacaciones"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
@@ -12,10 +12,9 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Delete SolicitudVacacione</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idSolicitudVacaciones</strong>
+									<strong>Solicitud #</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="idSolicitudVacaciones" ID="idSolicitudVacaciones" Mode="ReadOnly" />
@@ -23,7 +22,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaInicio</strong>
+									<strong>Fecha Inicio</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaInicio" ID="FechaInicio" Mode="ReadOnly" />
@@ -31,7 +30,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaFin</strong>
+									<strong>Fecha Fin</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaFin" ID="FechaFin" Mode="ReadOnly" />
@@ -39,7 +38,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaMaxAprobacion</strong>
+									<strong>Fecha Maxima de Aprobacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaMaxAprobacion" ID="FechaMaxAprobacion" Mode="ReadOnly" />
@@ -63,7 +62,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>NumDias</strong>
+									<strong>Numero de Dias</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="NumDias" ID="NumDias" Mode="ReadOnly" />
@@ -71,7 +70,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEmpleado</strong>
+									<strong>Empleado</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.Empleado != null ? Item.Empleado.PrimerNombre : "" %>
@@ -79,7 +78,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEscalonamientoVacacion</strong>
+									<strong>Tipo Escalonamiento</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.EscalonamientoVacacione != null ? Item.EscalonamientoVacacione.Nombre : "" %>
@@ -90,8 +89,8 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" CssClass="btn btn-danger" />
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
+							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Eliminar" CssClass="btn btn-danger" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancelar" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

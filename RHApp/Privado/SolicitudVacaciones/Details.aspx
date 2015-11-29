@@ -12,10 +12,10 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>SolicitudVacacione Details</legend>
+                    <legend>Solicitud Vacacion Detalles</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idSolicitudVacaciones</strong>
+									<strong>idSolicitud</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="idSolicitudVacaciones" ID="idSolicitudVacaciones" Mode="ReadOnly" />
@@ -23,7 +23,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaInicio</strong>
+									<strong>Fecha Inicio</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaInicio" ID="FechaInicio" Mode="ReadOnly" />
@@ -31,7 +31,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaFin</strong>
+									<strong>Fecha Fin</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaFin" ID="FechaFin" Mode="ReadOnly" />
@@ -39,7 +39,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>FechaMaxAprobacion</strong>
+									<strong>FechaMax Aprobacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="FechaMaxAprobacion" ID="FechaMaxAprobacion" Mode="ReadOnly" />
@@ -63,7 +63,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>NumDias</strong>
+									<strong>Numero de Dias</strong>
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="NumDias" ID="NumDias" Mode="ReadOnly" />
@@ -71,7 +71,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEmpleado</strong>
+									<strong>Empleado</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.Empleado != null ? Item.Empleado.PrimerNombre : "" %>
@@ -79,7 +79,7 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>idEscalonamientoVacacion</strong>
+									<strong>EscalonamientoVacacion</strong>
 								</div>
 								<div class="col-sm-4">
 									<%#: Item.EscalonamientoVacacione != null ? Item.EscalonamientoVacacione.Nombre : "" %>
