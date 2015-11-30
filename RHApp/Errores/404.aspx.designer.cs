@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RHApp
-{
-
-    public partial class About
-    {
-
+namespace RHApp.Errores {
+    
+    
+    public partial class _404 {
     }
 }

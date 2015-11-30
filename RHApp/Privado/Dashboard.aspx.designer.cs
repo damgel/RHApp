@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RHApp {
+namespace RHApp.Privado {
     
     
-    public partial class _Default {
+    public partial class Dashboard {
     }
 }

@@ -22,7 +22,6 @@ namespace RHApp.Account
 
             using (_myDb)
             {
-                clave = "superpass";
                 string lookupPassword = null;                
                 try
                 {
@@ -49,6 +48,14 @@ namespace RHApp.Account
                 return (0 == string.Compare(lookupPassword, clave, false));
 
             }
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Session["usuario"] != null)
+            {
+                Response.Redirect("../Privado/Dashboard.aspx");
+            }  
         }
     }
 }

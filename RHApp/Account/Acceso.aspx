@@ -177,7 +177,11 @@
     </form>
     
   <div class="login-help">
-    
+    <p>
+        Credenciales de prueba:<br />
+        usuario: <b  style="color: red">ing.reyes</b>
+        Contraseña: <b style="color: red">superpass</b>
+    </p>
   </div>
 </div>
 
