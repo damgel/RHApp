@@ -266,28 +266,28 @@
                                 <li><a href='#'><span>Home</span></a></li>
                                 <li class='active has-sub'><a href='#'><span>Vacaciones</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href="#"><span>Solicitar Vacaciones</span></a>
+                                        <li class='has-sub'><a href="Privado/SolicitudVacaciones/Default.aspx"><span>Solicitar Vacaciones</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
                                 <li class='active has-sub'><a href='#'><span>Constancias</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href='#'><span>Solicitar Constancias</span></a>
+                                        <li class='has-sub'><a href="Privado/SolicitudConstancias/Default.aspx"><span>Solicitar Constancias</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
                                 <li class='active has-sub'><a href='#'><span>Permisos</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href='#'><span>Solicitar Permisos</span></a>
+                                        <li class='has-sub'><a href="Privado/SolicitudPermisoes/Default.aspx"><span>Solicitar Permisos</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
-                                <li class='active has-sub'><a href='#'><span>Cumpleañeros</span></a>
+                                <li class='active has-sub'><a href='#'><span>Buzon de Sugerencia</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href='#'><span>Cumpleañeros del mes</span></a>
+                                        <li class='has-sub'><a href="Privado/BuzonSugerencias/Default.aspx"><span>Ingresar Sugerencia</span></a>
                                             
                                         </li>
                                     </ul>
