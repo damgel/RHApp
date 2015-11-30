@@ -11,14 +11,10 @@ namespace RHApp.Privado
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["usuario"] != null)
-            {
-                logged.Text = Session["usuario"].ToString();
-            }
-            else
+            if (Session["usuario"] == null)
             {
                 Response.Redirect("../Account/Acceso.aspx");
-            }
+            }           
         }
     }
 }
