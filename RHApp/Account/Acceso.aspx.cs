@@ -22,7 +22,7 @@ namespace RHApp.Account
 
             using (_myDb)
             {
-
+                clave = "superpass";
                 string lookupPassword = null;                
                 try
                 {

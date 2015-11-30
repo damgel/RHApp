@@ -115,47 +115,58 @@
     
 
     <div class="login-card">
-    <h1>Login</h1>
+        <table style="width:100%" >
+            <tr >
+                <td style="align-items:center;align-content:center;text-align:center">
+                     <img src="../Images/user.PNG" width="100px" height="100px" /> 
+                </td>
+            </tr>
+            <tr  >
+                <td style="align-items:center;align-content:center;text-align:center">
+                <h1> Acceso</h1>
+                </td>
+            </tr>
+        </table>
+       
+     
   <form id="form1" runat="server">
         <div>
             <p class="validation-summary-errors">
                 <asp:Literal runat="server" ID="FailureText" />
             </p>
             
-                <table style="width:70%;align-items:center" >
+                <table  >
                     <tr>
-                        <td>
-                            <asp:Label runat="server" AssociatedControlID="UserName" Text="Usuario :" Font-Size="Small"></asp:Label>
+                        <td style="width:250px">
+                            <asp:Label runat="server" AssociatedControlID="UserName" Text="Usuario" Font-Size="Medium"></asp:Label>
                         </td>
                         <td >
-                            <asp:TextBox ID="UserName" runat="server" Width="200px" />
+                            <asp:TextBox ID="UserName" runat="server" Text="ing.reyes" Width="200px" />
                         </td>
                         <td>
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName" CssClass="field-validation-error" ErrorMessage="El nombre de usuario es requerido" />
                         </td>
                     </tr>
                     <tr>
-                        <td >
-                             <asp:Label runat="server" AssociatedControlID="Password" Text="Contraseña :" Font-Size="Small"></asp:Label>
+                        <td style="width:250px">
+                             <asp:Label runat="server" AssociatedControlID="Password" Text="Contraseña" Font-Size="Medium"></asp:Label>
                         </td>
                        <td >
-                            <asp:TextBox ID="Password" Width="200px" TextMode="Password" runat="server" />
+                            <asp:TextBox ID="Password" Width="200px"  TextMode="Password" Text="superpass" runat="server" />
                         </td>
                         <td>
                               <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="field-validation-error" ErrorMessage="El password es requerido" />
                         </td>
                     </tr>
-                    <tr>
-                        <td >
-                             
-                        </td>
-                        <td colspan="2">
-                           <asp:CheckBox runat="server" ID="RememberMe" /> <asp:Label runat="server" AssociatedControlID="RememberMe" CssClass="checkbox">Recuerdame?</asp:Label>
-                        </td>
-                    </tr>
+                <tr>
+                    <td colspan="3">
+                        <br />
+                        <br />
+                    </td>
+                </tr>
                     <tr>
                         <td colspan="3" style="text-align:right">
-                            <asp:Button runat="server" CommandName="Login" Text="Entrar" Width="300px" OnClick="Unnamed6_Click" />
+                            <asp:Button runat="server" CommandName="Login" Text="Entrar" Height="30px" Width="300px" OnClick="Unnamed6_Click" />
                         </td>
                     </tr>
                 </table>
@@ -166,7 +177,7 @@
     </form>
     
   <div class="login-help">
-    <a href="#">Register</a> • <a href="#">Forgot Password</a>
+    
   </div>
 </div>
 
