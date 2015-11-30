@@ -238,7 +238,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p class="site-title">
-                        <a runat="server" href="~/">RRHH APP v1.0</a>
+                        <a runat="server" href="~/Privado/Dashboard.aspx">RRHH APP v1.0</a>
                     </p>
                 </div>
                 <div class="float-right">
