@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RHApp.Privado {
+namespace RHApp.Errores {
     
     
-    public partial class Dashboard {
+    public partial class _404 {
     }
 }
