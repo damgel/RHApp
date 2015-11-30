@@ -266,28 +266,65 @@
                                 <li><a href='#'><span>Home</span></a></li>
                                 <li class='active has-sub'><a href='#'><span>Vacaciones</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href="Privado/SolicitudVacaciones/Default.aspx"><span>Solicitar Vacaciones</span></a>
+                                        <li class='has-sub'><a href="~/SolicitudVacaciones/Default.aspx"><span>Solicitar Vacaciones</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
                                 <li class='active has-sub'><a href='#'><span>Constancias</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href="Privado/SolicitudConstancias/Default.aspx"><span>Solicitar Constancias</span></a>
+                                        <li class='has-sub'><a href="~/SolicitudConstancias/Default.aspx"><span>Solicitar Constancias</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
                                 <li class='active has-sub'><a href='#'><span>Permisos</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href="Privado/SolicitudPermisoes/Default.aspx"><span>Solicitar Permisos</span></a>
+                                        <li class='has-sub'><a href="~/SolicitudPermisoes/Default.aspx"><span>Solicitar Permisos</span></a>
                                             
                                         </li>
                                     </ul>
                                 </li>
                                 <li class='active has-sub'><a href='#'><span>Buzon de Sugerencia</span></a>
                                     <ul>
-                                        <li class='has-sub'><a href="Privado/BuzonSugerencias/Default.aspx"><span>Ingresar Sugerencia</span></a>
+                                        <li class='has-sub'><a href="~/BuzonSugerencias/Default.aspx"><span>Ingresar Sugerencia</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class='active has-sub'><a href='#'><span>Mantenimientos</span></a>
+                                    <ul>
+                                        <li class='has-sub'><a href="TipoPermisoes/Default.aspx"><span>Tipo de Permisos</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                      <ul>
+                                        <li class='has-sub'><a href="TipoSalarios/Default.aspx"><span>Tipo de Salario</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                      <ul>
+                                        <li class='has-sub'><a href="TipoEnvios/Default.aspx"><span>Tipo Envio</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                      <ul>
+                                        <li class='has-sub'><a href="TipoConstancias/Default.aspx"><span>Tipo Constancia</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                      <ul>
+                                        <li class='has-sub'><a href="FormaDePagoes/Default.aspx"><span>Forma de Pago</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                     <ul>
+                                        <li class='has-sub'><a href="EstadoCivils/Default.aspx"><span>Estado Civil</span></a>
+                                            
+                                        </li>
+                                    </ul>
+                                     <ul>
+                                        <li class='has-sub'> <a href="CategoriaSugerencias/Default.aspx"><span>Categoria de Sugerencia</span></a>
                                             
                                         </li>
                                     </ul>
